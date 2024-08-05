@@ -26,7 +26,7 @@ Also, you have the `extra_data.parquet` file that contains complementary data:
 - `Type`: Type of the store (depends on `Size` column)
 
 ## Objective
-You will need to merge these files and perform some data manipulations. The transformed DataFrame can then be stored as the `clean_data` variable containing the following columns:
+I worked to merge these files and perform some data manipulations. The transformed DataFrame can then be stored as the `clean_data` variable containing the following columns:
 - `Store_ID`
 - `Month`
 - `Dept`
